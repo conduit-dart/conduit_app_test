@@ -8,6 +8,7 @@ environment:
 dependencies:
   conduit: ^3.0.11
   build_runner:
+  build_web_compilers:
 
 dev_dependencies:
   test: ^1.16.5
