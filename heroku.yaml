@@ -1,1 +1,1 @@
-database: postgres://$DATABASE_URL
+database: $DATABASE_URL
