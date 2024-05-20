@@ -1,5 +1,5 @@
-import 'package:conduit_app_test/model/user.dart';
 import 'package:conduit_app_test/conduit_app_test.dart';
+import 'package:conduit_app_test/model/user.dart';
 
 class RegisterController extends ResourceController {
   RegisterController(this.context, this.authServer);

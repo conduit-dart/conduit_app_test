@@ -1,11 +1,11 @@
-import 'package:conduit_app_test/model/user.dart';
 import 'package:conduit_app_test/conduit_app_test.dart';
+import 'package:conduit_app_test/model/user.dart';
 import 'package:conduit_test/conduit_test.dart';
 
 export 'package:conduit_app_test/conduit_app_test.dart';
+export 'package:conduit_core/conduit_core.dart';
 export 'package:conduit_test/conduit_test.dart';
 export 'package:test/test.dart';
-export 'package:conduit_core/conduit_core.dart';
 
 /// A testing harness for conduit_app_test.
 ///

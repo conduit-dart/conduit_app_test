@@ -82,80 +82,90 @@ packages:
     dependency: "direct main"
     description:
       name: conduit
-      sha256: "11f2554d6b7a0ec23454c90d5b16d3bc75d13100bc3fb8ffe8edc306f54c5b59"
+      sha256: "719440d398a670c468dca34d2e36a034b3eeddcd20108a4681fa5cf2ffc26e48"
       url: "https://pub.dev"
     source: hosted
-    version: "5.1.0"
+    version: "5.1.1"
   conduit_codable:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/codable"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_codable
+      sha256: c451af5022a65b40eae9a5031f931a702dac5b26cdecbccba66fc27cdc91aa33
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_common:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/common"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_common
+      sha256: "77d9fa278db553d550cbb32b70d4285db193c1baa9075862490d7e7d13ff8603"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_config:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/config"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_config
+      sha256: "97cdbb4e2887ebf1189224dee832565ef448ccb2bcf696c8c2010913df40cd02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_core:
     dependency: "direct main"
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/core"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_core
+      sha256: "3f889ad99141e2d812ec61594d0168c3f2292b8c637248e07957344d13911fb7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_isolate_exec:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/isolate_exec"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_isolate_exec
+      sha256: bdd15086ba91466aafe25fbc67c3d77da35e57c5d287f9009eb5245f2b52937c
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_open_api:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/open_api"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_open_api
+      sha256: bb7d4e7c26efe57902125505de09219f1249991e8f6a148f58b48207feee1dd4
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_password_hash:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/password_hash"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_password_hash
+      sha256: ef587595919cd3005f9ddaaaf3381668fbd3e28d0153bf517e1a633493b7fefc
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_postgresql:
     dependency: "direct main"
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/postgresql"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_postgresql
+      sha256: a93404ac3ca87fbdd15dce7ed95500e0d1c14b102388827c54235fd8775dbcff
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_runtime:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/runtime"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_runtime
+      sha256: a0493870cbb444fa7af2ff35d5f8a9813bad2977daef18b21b2315d69bf5e499
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   conduit_test:
     dependency: "direct dev"
     description:
-      path: "/Users/j4qfrost/Projects/conduit/packages/test_harness"
-      relative: false
-    source: path
-    version: "5.1.0"
+      name: conduit_test
+      sha256: a934f53b3bf039db0a95e32a06d89e71259ad14fd69a0daec6e238724bbaabc0
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
   convert:
     dependency: transitive
     description:

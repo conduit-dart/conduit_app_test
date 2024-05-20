@@ -63,67 +63,67 @@
     },
     {
       "name": "conduit",
-      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit-5.1.0",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_codable",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/codable",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_codable-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_common",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/common",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_common-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_config",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/config",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_config-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_core",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/core",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_core-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_isolate_exec",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/isolate_exec",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_isolate_exec-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_open_api",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/open_api",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_open_api-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_password_hash",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/password_hash",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_password_hash-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_postgresql",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/postgresql",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_postgresql-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_runtime",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/runtime",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_runtime-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "conduit_test",
-      "rootUri": "file:///Users/j4qfrost/Projects/conduit/packages/test_harness",
+      "rootUri": "file:///Users/j4qfrost/.pub-cache/hosted/pub.dev/conduit_test-5.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -434,7 +434,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-05-20T23:50:31.349757Z",
+  "generated": "2024-05-21T08:56:48.753781Z",
   "generator": "pub",
   "generatorVersion": "3.5.0-169.0.dev",
   "flutterRoot": "file:///Users/j4qfrost/flutter",
