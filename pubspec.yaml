@@ -1,0 +1,16 @@
+name: conduit_app_test
+description: An conduit application with a database connection, data model and OAuth 2.0 endpoints.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  conduit: ^5.0.1
+  conduit_core: ^5.0.1
+  conduit_postgresql: ^5.0.1
+
+dev_dependencies:
+  test: ^1.25.2
+  conduit_test: ^5.0.1
