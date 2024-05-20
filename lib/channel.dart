@@ -1,9 +1,9 @@
+import 'package:conduit_app_test/conduit_app_test.dart';
 import 'package:conduit_app_test/controller/identity_controller.dart';
 import 'package:conduit_app_test/controller/register_controller.dart';
 import 'package:conduit_app_test/controller/user_controller.dart';
 import 'package:conduit_app_test/model/user.dart';
 import 'package:conduit_app_test/utility/html_template.dart';
-import 'package:conduit_app_test/conduit_app_test.dart';
 
 /// This type initializes an application.
 ///
@@ -12,7 +12,7 @@ import 'package:conduit_app_test/conduit_app_test.dart';
 class ConduitAppTestChannel extends ApplicationChannel
     implements AuthRedirectControllerDelegate {
   final HTMLRenderer htmlRenderer = HTMLRenderer();
-  late final authServer;
+  late final AuthServer authServer;
   late ManagedContext context;
 
   /// Initialize services in this method.
@@ -55,19 +55,19 @@ class ConduitAppTestChannel extends ApplicationChannel
     router
         .route("/register")
         .link(() => Authorizer.basic(authServer))!
-        .link(() => RegisterController(context!, authServer));
+        .link(() => RegisterController(context, authServer));
 
     /* Gets profile for user with bearer token */
     router
         .route("/me")
         .link(() => Authorizer.bearer(authServer))!
-        .link(() => IdentityController(context!));
+        .link(() => IdentityController(context));
 
     /* Gets all users or one specific user by id */
     router
         .route("/users/[:id]")
         .link(() => Authorizer.bearer(authServer))!
-        .link(() => UserController(context!, authServer));
+        .link(() => UserController(context, authServer));
 
     return router;
   }
