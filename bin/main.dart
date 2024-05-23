@@ -2,6 +2,7 @@ import 'package:conduit_app_test/conduit_app_test.dart';
 
 Future main() async {
   final app = Application<ConduitAppTestChannel>()
+    ..options.address = InternetAddress.anyIPv4
     ..options.configurationFilePath = "config.yaml"
     ..options.port = 8888;
 

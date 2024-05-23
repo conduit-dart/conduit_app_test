@@ -2,5 +2,5 @@ database:
   username: conduit_test_user
   password: conduit!
   host: postgres
-  port: 5432 # change this value
+  port: 15432 # change this value
   databaseName: conduit_test_db
