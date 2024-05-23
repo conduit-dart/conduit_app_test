@@ -10,9 +10,13 @@ services:
       POSTGRES_PASSWORD: conduit!
       POSTGRES_DB: conduit_test_db
       POSTGRES_PORT: 15432
+    ports:
+      - 15432
   conduit:
     build:
       context: ./
       dockerfile: Dockerfile
     links:
       - "postgres:database"
+    ports:
+      - 8888
