@@ -4,7 +4,7 @@ Future main() async {
   final app = Application<ConduitAppTestChannel>()
     ..options.address =
         (await InternetAddress.lookup(Platform.environment['HOSTNAME'] ?? ''))
-            .first
+            .firstWhere((address) => address.address != '127.0.0.1')
     ..options.configurationFilePath = "config.yaml"
     ..options.port = 8888;
 
