@@ -1,7 +1,7 @@
 import 'package:conduit_app_test/conduit_app_test.dart';
 
 Future main() async {
-  final hostname = Platform.environment['HOSTNAME'] ?? 'localhost';
+  const hostname = String.fromEnvironment('HOSTNAME');
   print('Resolving hostname $hostname');
   final addresses =
       await InternetAddress.lookup(hostname, type: InternetAddressType.IPv4);
