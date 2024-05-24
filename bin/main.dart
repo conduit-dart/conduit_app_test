@@ -1,11 +1,12 @@
 import 'package:conduit_app_test/conduit_app_test.dart';
 
 Future main() async {
+  final hostname = Platform.environment['HOSTNAME'] ?? 'localhost';
+  print('Resolving hostname $hostname');
+  final addresses = await InternetAddress.lookup(hostname);
+  print('Hostname resolves to $addresses');
   final app = Application<ConduitAppTestChannel>()
-    ..options.address = (await InternetAddress.lookup(
-            Platform.environment['HOSTNAME'] ?? 'localhost'))
-        .firstWhere((address) => address.address != '127.0.0.1',
-            orElse: () => InternetAddress.anyIPv4)
+    ..options.address = addresses.first
     ..options.configurationFilePath = "config.yaml"
     ..options.port = 8888;
 
