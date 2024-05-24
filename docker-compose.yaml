@@ -1,20 +1,7 @@
-version: "3.8"
-
 services:
-  postgres:
-    image: postgres:16.2
-    container_name: conduit_postgres
-    restart: always
-    environment:
-      POSTGRES_USER: conduit_test_user
-      POSTGRES_PASSWORD: conduit!
-      POSTGRES_DB: conduit_test_db
-      POSTGRES_PORT: 15432
   conduit:
     build:
       context: ./
       dockerfile: Dockerfile
-    links:
-      - "postgres:database"
     ports:
       - 8888
