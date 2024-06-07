@@ -3,7 +3,9 @@ import 'package:conduit_app_test/conduit_app_test.dart';
 Future main() async {
   final logger = Logger('conduit');
   const hostname = String.fromEnvironment('HOSTNAME');
-  print('Resolving hostname $hostname');
+  if (hostname.isEmpty) {
+    throw hostname;
+  }
   final addresses =
       await InternetAddress.lookup(hostname, type: InternetAddressType.IPv4);
   logger.info('Hostname resolves to $addresses');
