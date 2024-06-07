@@ -69,6 +69,11 @@ class ConduitAppTestChannel extends ApplicationChannel
         .link(() => Authorizer.bearer(authServer))!
         .link(() => UserController(context, authServer));
 
+    router.route("/example").linkFunction((Request req) {
+      const lit = String.fromEnvironment('HOSTNAME');
+      return Response.ok({'hostname': lit});
+    });
+
     return router;
   }
 

@@ -434,8 +434,10 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-06-07T18:37:25.569583Z",
+  "generated": "2024-06-07T23:16:54.704062Z",
   "generator": "pub",
   "generatorVersion": "3.5.0-232.0.dev",
+  "flutterRoot": "file:///Users/j4qfrost/flutter",
+  "flutterVersion": "3.23.0-13.0.pre.143",
   "pubCache": "file:///Users/j4qfrost/.pub-cache"
 }
