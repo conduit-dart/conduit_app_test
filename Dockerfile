@@ -5,4 +5,4 @@ WORKDIR $HOME/app/
 
 RUN dart pub get --offline
 
-CMD  echo $HOSTNAME && conduit build --define=HOSTNAME=$HOSTNAME && ./conduit_app_test.aot
+CMD conduit build --define=HOSTNAME=$HOSTNAME && ./conduit_app_test.aot
