@@ -5,6 +5,7 @@ Future main() async {
 
   final addresses =
       await InternetAddress.lookup(hostname, type: InternetAddressType.IPv4);
+  throw addresses;
   final app = Application<ConduitAppTestChannel>()
     ..options.address = addresses.firstWhere((a) => a.address != '127.0.0.1')
     ..options.configurationFilePath = "config.yaml"
