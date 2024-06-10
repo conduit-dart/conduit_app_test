@@ -1,15 +1,8 @@
 import 'package:conduit_app_test/conduit_app_test.dart';
 
 Future main() async {
-  const hostname = String.fromEnvironment('HOSTNAME');
-
-  final log = File('log');
-
-  final addresses =
-      await InternetAddress.lookup(hostname, type: InternetAddressType.IPv4);
-  log.writeAsBytesSync(addresses.toString().codeUnits);
   final app = Application<ConduitAppTestChannel>()
-    ..options.address = addresses.first
+    ..options.address = InternetAddress.anyIPv4
     ..options.configurationFilePath = "config.yaml"
     ..options.port = 8888;
 
