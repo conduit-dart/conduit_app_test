@@ -1,8 +1,8 @@
-FROM conduitdart/conduit:v5.1.2
+FROM conduitdart/conduit:v5.1.3
 
 COPY . $HOME/app/
 WORKDIR $HOME/app/
 
-RUN dart pub get --offline && conduit build --define=HOSTNAME=$HOSTNAME
+RUN dart pub get --offline && conduit build --define=HOSTNAME=$HOSTNAME .
 
 CMD ./conduit_app_test.aot
