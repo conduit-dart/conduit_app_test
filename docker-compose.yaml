@@ -12,4 +12,4 @@ services:
       POSTGRES_USER: conduit_test_user
       POSTGRES_PASSWORD: conduit!
       POSTGRES_DB: conduit_test_db
-      POSTGRES_PORT: 15432
+      POSTGRES_PORT: 5432
