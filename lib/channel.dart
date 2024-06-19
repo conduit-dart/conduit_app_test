@@ -54,7 +54,7 @@ class ConduitAppTestChannel extends ApplicationChannel
     /* Create an account */
     router
         .route("/register")
-        .link(() => Authorizer.basic(authServer))!
+        // .link(() => Authorizer.basic(authServer))!
         .link(() => RegisterController(context, authServer));
 
     /* Gets profile for user with bearer token */
